@@ -1,0 +1,10 @@
+[{
+    "id": "7412f93d-16a4-457b-a278-fb172ecda5bd",
+    "fullName": "Andualem Tilahun",
+    "email": "admin@example.com",
+    "birthDate": "1990-01-01",
+    "password": "$2b$10$U3f5JTmjMqnMtD4HPp6cBuIvAwdbuWCb7OrmpU5nAwXQ8oszX/i2y",
+    "role": "ADMIN",
+    "createdAt": "2025-09-08T10:00:00Z",
+    "updatedAt": "2025-09-08T10:00:00Z"
+  }]

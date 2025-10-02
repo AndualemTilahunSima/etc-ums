@@ -1,0 +1,97 @@
+[
+  {
+    "id": "7412f93d-16a4-457b-a278-fb172ecda5bd",
+    "fullName": "Andualem Tilahun",
+    "email": "admin@example.com",
+    "birthDate": "1990-01-01",
+    "password": "$2b$10$U3f5JTmjMqnMtD4HPp6cBuIvAwdbuWCb7OrmpU5nAwXQ8oszX/i2y",
+    "role": "ADMIN",
+    "language": "ENGLISH",
+    "createdAt": "2025-09-08T10:00:00Z",
+    "updatedAt": "2025-09-08T10:00:00Z"
+  },
+  {
+    "id": "3885ae2c-532d-4a80-887a-afed1eb7795b",
+    "fullName": "tinishu",
+    "email": "tinishu@gmail.com",
+    "birthDate": "1985-05-15",
+    "password": "$2b$10$i88Ix6j533Y/11TobU6U..oWmKb2gYMMJ1RvIZeAtlWfX/d0qWW0C",
+    "role": "LIBRARIAN",
+    "language": "ENGLISH",
+    "status": "APPROVED",
+    "createdAt": "2025-09-10T07:32:39.789Z",
+    "updatedAt": "2025-09-10T07:32:39.789Z"
+  },
+  {
+    "id": "df78d015-a708-4bc4-b4b5-86a92043935b",
+    "fullName": "hatif",
+    "email": "hatif@gmail.com",
+    "birthDate": "1985-05-15",
+    "password": "$2b$10$qOsB.8dNDXTzemJo9eYLnufMvbLIJb.ZSUn50umPcVk9IkXZil96G",
+    "role": "LIBRARIAN",
+    "language": "ENGLISH",
+    "status": "APPROVED",
+    "createdAt": "2025-09-10T08:33:08.482Z",
+    "updatedAt": "2025-09-10T08:33:08.482Z"
+  },
+  {
+    "id": "541519eb-3780-47b6-bd05-ec46985d3aba",
+    "fullName": "hatif",
+    "email": "hatif02@gmail.com",
+    "birthDate": "1985-05-15",
+    "password": "$2b$10$bX5Zhl7gjIiGHKCQNzOiWen6umXKxbLYS9wq750vd30XlhDchq3Pm",
+    "role": "LIBRARIAN",
+    "language": "ARABIC",
+    "status": "APPROVED",
+    "createdAt": "2025-09-10T10:00:59.365Z",
+    "updatedAt": "2025-09-10T10:00:59.365Z"
+  },
+  {
+    "id": "3065576f-ea68-4c96-bb2f-d4efd39cf037",
+    "fullName": "hatif",
+    "email": "hatif09@gmail.com",
+    "birthDate": "1985-05-15",
+    "password": "$2b$10$Z3hnPvgTaDnS8l97KA8aH.lCSs09pLFm2d1eefHVWIsIYkAqrmoKa",
+    "role": "LIBRARIAN",
+    "language": "ENGLISH",
+    "status": "PENDING",
+    "createdAt": "2025-09-12T06:01:49.345Z",
+    "updatedAt": "2025-09-12T06:01:49.345Z"
+  },
+  {
+    "id": "9d8c5a18-b8af-46fe-aff8-0126d20a3e24",
+    "fullName": "hatif",
+    "email": "hatif10@gmail.com",
+    "birthDate": "1985-05-15",
+    "password": "$2b$10$NybOrveYlt.2dmW2CuPMteqM6EAI/B/cRkDfwzDR1LsinY1tdraJe",
+    "role": "LIBRARIAN",
+    "language": "ENGLISH",
+    "status": "PENDING",
+    "createdAt": "2025-09-12T08:48:22.161Z",
+    "updatedAt": "2025-09-12T08:48:22.161Z"
+  },
+  {
+    "id": "a37c33a4-b28e-4893-901b-4887abc02a5e",
+    "fullName": "hatif",
+    "email": "hatif12@gmail.com",
+    "birthDate": "1985-05-15",
+    "password": "$2b$10$PFXmaDqFSvnmoq5ZoUdNq.fFyyb.Rb/2CZsjUvMjrw7LVSthESKPK",
+    "role": "LIBRARIAN",
+    "language": "ENGLISH",
+    "status": "APPROVED",
+    "createdAt": "2025-09-12T09:34:57.135Z",
+    "updatedAt": "2025-09-12T09:34:57.135Z"
+  },
+  {
+    "id": "3827cb43-f05f-40e8-810f-f2467e5d3ff6",
+    "fullName": "hatif",
+    "email": "hatif120@gmail.com",
+    "birthDate": "1985-05-15",
+    "password": "$2b$10$eMtIJ9tuwTo./9cPECuXjerWUBmdHKhn2nY5biVcZYdJ0aA9cMk9q",
+    "role": "LIBRARIAN",
+    "language": "ENGLISH",
+    "status": "APPROVED",
+    "createdAt": "2025-09-12T09:43:57.329Z",
+    "updatedAt": "2025-09-12T09:43:57.329Z"
+  }
+]

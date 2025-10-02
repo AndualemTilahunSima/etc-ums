@@ -1,0 +1,34 @@
+{
+  "BOOK": {
+    "INVALID_OBJECT": "Invalid book object",
+    "CONFLICT_ISBN": "Book with isbn {{isbn}} already exist",
+    "NOT_FOUND_ID": "Book with Id {{id}} not found",
+    "NOT_FOUND_ISBN": "Book with Isbn {{isbn}} not found",
+    "CREATED": "New book has been created successfully",
+    "RETRIEVED_BY_ID": "Book with ID {{id}} retrieved successfully",
+    "RETRIEVED_BY_ISBN": "Book with isbn {{isbn}} retrieved successfully",
+    "RETRIEVED_ALL": "Total {{count}} books retrieved successfully",
+    "UPDATED": "Book with ID {{id}} updated successfully",
+    "DELETED": "Books with ID {{id}} deleted successfully"
+  },
+  "USER": {
+    "INVALID_OBJECT": "Invalid user object",
+    "CONFLICT_EMAIL": "User with email {{email}} already exist",
+    "NOT_FOUND_ID": "User with Id {{id}} not found",
+    "NOT_FOUND_EMAIL": "User with Email {{email}} not found",
+    "PENDING_APPROVAL": "User with Email {{email}} is pending approval by admin",
+    "INVALID_CREDENTIALS": "Invalid credentials",
+    "CREATED": "New user has been created successfully",
+    "RETRIEVED_BY_ID": "User with ID {{id}} retrieved successfully",
+    "RETRIEVED_BY_EMAIL": "User with email {{email}} retrieved successfully",
+    "RETRIEVED_ALL": "Total {{count}} users retrieved successfully",
+    "UPDATED": "User with ID {{id}} updated successfully",
+    "DELETED": "User with ID {{id}} deleted successfully",
+    "APPROVED": "User with ID {{id}} approved successfully",
+    "BORROWED": "Book with ID {{bookId}} borrowed successfully by user ID {{userId}}",
+    "RETURNED": "Book with ID {{bookId}} returned successfully by user ID {{userId}}",
+    "MIN_BORROW_COUNT": "User with minimum borrow count",
+    "MAX_BORROW_COUNT": "User wtih maximum borrow count"
+  }
+
+}

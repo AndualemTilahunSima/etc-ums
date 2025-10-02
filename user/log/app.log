@@ -1,0 +1,99 @@
+{"file":"AuthController.js","level":"info","message":"Login attempt for user: admin@example.com","timestamp":"2025-10-01T06:07:18.970Z"}
+{"file":"AuthController.js","level":"info","message":"Login attempt for user: admin@example.com","timestamp":"2025-10-01T06:08:36.904Z"}
+{"file":"AuthController.js","level":"info","message":"Token created successfully for user: admin@example.com","timestamp":"2025-10-01T06:08:37.001Z"}
+{"file":"AuthController.js","level":"info","message":"Login attempt for user: admin@example.com","timestamp":"2025-10-01T06:10:51.257Z"}
+{"file":"AuthController.js","level":"info","message":"Token created successfully for user: admin@example.com","timestamp":"2025-10-01T06:10:51.346Z"}
+{"file":"AuthController.js","level":"info","message":"Referesh token for user: eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6MSwiZW1haWwiOiJhZG1pbkBleGFtcGxlLmNvbSIsInJvbGUiOiJBRE1JTiIsImxhbmd1YWdlIjoiRU5HTElTSCIsImlhdCI6MTc1OTI5OTA1MSwiZXhwIjoxNzU5MzAyNjUxfQ.IQDfBJohA55NG3QjRz_7dPl5AEBCaOXSHT01x_qsATQ","timestamp":"2025-10-01T06:10:54.249Z"}
+{"file":"AuthController.js","level":"info","message":"Token created successfully for user: eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6MSwiZW1haWwiOiJhZG1pbkBleGFtcGxlLmNvbSIsInJvbGUiOiJBRE1JTiIsImxhbmd1YWdlIjoiRU5HTElTSCIsImlhdCI6MTc1OTI5OTA1MSwiZXhwIjoxNzU5MzAyNjUxfQ.IQDfBJohA55NG3QjRz_7dPl5AEBCaOXSHT01x_qsATQ","timestamp":"2025-10-01T06:10:54.252Z"}
+{"file":"AuthController.js","level":"info","message":"Referesh token for user: eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6MSwiZW1haWwiOiJhZG1pbkBleGFtcGxlLmNvbSIsInJvbGUiOiJBRE1JTiIsImxhbmd1YWdlIjoiRU5HTElTSCIsImlhdCI6MTc1OTI5OTA1MSwiZXhwIjoxNzU5MzAyNjUxfQ.IQDfBJohA55NG3QjRz_7dPl5AEBCaOXSHT01x_qsATQ","timestamp":"2025-10-01T06:37:51.376Z"}
+{"file":"AuthServiceImpl.js","level":"info","message":"token for user: eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6MSwiZW1haWwiOiJhZG1pbkBleGFtcGxlLmNvbSIsInJvbGUiOiJBRE1JTiIsImxhbmd1YWdlIjoiRU5HTElTSCIsImlhdCI6MTc1OTI5OTA1MSwiZXhwIjoxNzU5MzAyNjUxfQ.IQDfBJohA55NG3QjRz_7dPl5AEBCaOXSHT01x_qsATQ","timestamp":"2025-10-01T06:37:51.383Z"}
+{"file":"AuthController.js","level":"info","message":"Token created successfully for user: eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6MSwiZW1haWwiOiJhZG1pbkBleGFtcGxlLmNvbSIsInJvbGUiOiJBRE1JTiIsImxhbmd1YWdlIjoiRU5HTElTSCIsImlhdCI6MTc1OTI5OTA1MSwiZXhwIjoxNzU5MzAyNjUxfQ.IQDfBJohA55NG3QjRz_7dPl5AEBCaOXSHT01x_qsATQ","timestamp":"2025-10-01T06:37:51.386Z"}
+{"file":"UserController.js","level":"info","message":"Fetching all users","timestamp":"2025-10-01T06:37:55.205Z"}
+{"file":"UserServiceImpl.js","level":"info","message":"Fetching all users","timestamp":"2025-10-01T06:37:55.206Z"}
+{"file":"UserServiceImpl.js","level":"info","message":"Fetched 4 users successfully","timestamp":"2025-10-01T06:37:55.237Z"}
+{"file":"UserController.js","level":"info","message":"Fetched 4 users successfully","timestamp":"2025-10-01T06:37:55.238Z"}
+{"level":"error","message":"401 - Invalid token - /api/users/borrow-book/userId/3/bookId/1 - POST - ::1 - jwt expired","timestamp":"2025-10-01T06:39:30.925Z"}
+{"file":"AuthController.js","level":"info","message":"Login attempt for user: hatif120@gmail.com","timestamp":"2025-10-01T06:40:08.885Z"}
+{"file":"AuthServiceImpl.js","level":"info","message":"Fetching user with email: hatif120@gmail.com","timestamp":"2025-10-01T06:40:08.885Z"}
+{"file":"AuthServiceImpl.js","level":"info","message":"User fetched successfully with Email: hatif120@gmail.com","timestamp":"2025-10-01T06:40:08.909Z"}
+{"file":"AuthController.js","level":"info","message":"Token created successfully for user: hatif120@gmail.com","timestamp":"2025-10-01T06:40:08.978Z"}
+{"file":"BookController.js","level":"info","message":"Creating new book","timestamp":"2025-10-01T06:40:26.159Z"}
+{"file":"BookServiceImpl.js","level":"info","message":"Creating new book","timestamp":"2025-10-01T06:40:26.160Z"}
+{"file":"BookServiceImpl.js","level":"error","message":"Book with isbn 124566 already exist","timestamp":"2025-10-01T06:40:26.166Z"}
+{"level":"error","message":"409 - Book with isbn 124566 already exist - /api/books/ - POST - ::1","timestamp":"2025-10-01T06:40:26.168Z"}
+{"file":"BookController.js","level":"info","message":"Creating new book","timestamp":"2025-10-01T06:41:25.826Z"}
+{"file":"BookServiceImpl.js","level":"info","message":"Creating new book","timestamp":"2025-10-01T06:41:25.826Z"}
+{"file":"BookServiceImpl.js","level":"info","message":"Book created successfully with ID: 4","timestamp":"2025-10-01T06:41:25.853Z"}
+{"file":"BookController.js","level":"info","message":"Book created successfully with ID: 4","timestamp":"2025-10-01T06:41:25.853Z"}
+{"level":"error","message":"401 - Invalid token - /api/users/email/jane.admin@example.com - GET - ::1 - jwt expired","timestamp":"2025-10-01T06:44:42.271Z"}
+{"file":"AuthController.js","level":"info","message":"Login attempt for user: admin@example.com","timestamp":"2025-10-01T06:44:46.664Z"}
+{"file":"AuthServiceImpl.js","level":"info","message":"Fetching user with email: admin@example.com","timestamp":"2025-10-01T06:44:46.665Z"}
+{"file":"AuthServiceImpl.js","level":"info","message":"User fetched successfully with Email: admin@example.com","timestamp":"2025-10-01T06:44:46.672Z"}
+{"file":"AuthController.js","level":"info","message":"Token created successfully for user: admin@example.com","timestamp":"2025-10-01T06:44:46.751Z"}
+{"file":"UserController.js","level":"info","message":"Fetching user with Email: jane.admin@example.com","timestamp":"2025-10-01T06:44:49.696Z"}
+{"file":"UserServiceImpl.js","level":"info","message":"Fetching user with Email: jane.admin@example.com","timestamp":"2025-10-01T06:44:49.696Z"}
+{"file":"UserServiceImpl.js","level":"error","message":"User with email jane.admin@example.com not found","timestamp":"2025-10-01T06:44:49.699Z"}
+{"level":"error","message":"404 - User with Email jane.admin@example.com not found - /api/users/email/jane.admin@example.com - GET - ::1","timestamp":"2025-10-01T06:44:49.700Z"}
+{"file":"UserController.js","level":"info","message":"Fetching user with Email: jane.admin@example.com","timestamp":"2025-10-01T06:47:06.745Z"}
+{"file":"UserServiceImpl.js","level":"info","message":"Fetching user with Email: jane.admin@example.com","timestamp":"2025-10-01T06:47:06.753Z"}
+{"file":"UserServiceImpl.js","level":"error","message":"User with email jane.admin@example.com not found","timestamp":"2025-10-01T06:47:06.775Z"}
+{"level":"error","message":"UserNotFoundError: User with Email jane.admin@example.com not found 404 - User with Email jane.admin@example.com not found - /api/users/email/jane.admin@example.com - GET - ::1","timestamp":"2025-10-01T06:47:06.776Z"}
+{"file":"UserController.js","level":"info","message":"Fetching user with Email: jane.admin@example.com","timestamp":"2025-10-01T06:48:15.468Z"}
+{"file":"UserServiceImpl.js","level":"info","message":"Fetching user with Email: jane.admin@example.com","timestamp":"2025-10-01T06:48:15.475Z"}
+{"file":"UserServiceImpl.js","level":"error","message":"User with email jane.admin@example.com not found","timestamp":"2025-10-01T06:48:15.500Z"}
+{"error":{"name":"UserNotFoundError","statusCode":404,"timestamp":"2025-10-01T06:48:15.501Z"},"level":"error","message":"404 - User with Email jane.admin@example.com not found - /api/users/email/jane.admin@example.com - GET - ::1","timestamp":"2025-10-01T06:48:15.501Z"}
+{"file":"UserController.js","level":"info","message":"Fetching user with Email: jane.admin@example.com","timestamp":"2025-10-01T06:52:49.940Z"}
+{"file":"UserServiceImpl.js","level":"info","message":"Fetching user with Email: jane.admin@example.com","timestamp":"2025-10-01T06:52:49.948Z"}
+{"file":"UserServiceImpl.js","level":"error","message":"User with email jane.admin@example.com not found","timestamp":"2025-10-01T06:52:49.972Z"}
+{"error":{"name":"UserNotFoundError","statusCode":404,"timestamp":"2025-10-01T06:52:49.973Z"},"level":"error","message":"404 - User with Email jane.admin@example.com not found - /api/users/email/jane.admin@example.com - GET - ::1","timestamp":"2025-10-01T06:52:49.974Z"}
+
+{"file":"UserController.js","level":"info","message":"Creating new user","timestamp":"2025-10-01T08:48:45.334Z"}
+{"file":"UserServiceImpl.js","level":"info","message":"Creating new user","timestamp":"2025-10-01T08:48:45.344Z"}
+{"level":"info","message":"[SequelizeUserRepository.js] Creating new user: [object Object]","timestamp":"2025-10-01T08:48:45.471Z"}
+{"file":"UserServiceImpl.js","level":"info","message":"User created successfully with ID: 5","timestamp":"2025-10-01T08:48:45.482Z"}
+{"file":"UserController.js","level":"info","message":"User created successfully with ID: 5","timestamp":"2025-10-01T08:48:45.482Z"}
+{"file":"UserController.js","level":"info","message":"Creating new user","timestamp":"2025-10-01T08:55:41.412Z"}
+{"file":"UserServiceImpl.js","level":"info","message":"Creating new user","timestamp":"2025-10-01T08:55:41.417Z"}
+{"file":"UserServiceImpl.js","level":"error","message":"User with email moh@gmail.com already exist","timestamp":"2025-10-01T08:55:41.506Z"}
+{"error":{},"level":"error","message":"500 - email is not defined - /api/users/ - POST - ::1","timestamp":"2025-10-01T08:55:41.507Z"}
+{"file":"UserController.js","level":"info","message":"Creating new user","timestamp":"2025-10-01T08:57:31.411Z"}
+{"file":"UserServiceImpl.js","level":"info","message":"Creating new user","timestamp":"2025-10-01T08:58:37.785Z"}
+{"file":"UserServiceImpl.js","level":"error","message":"User with email moh@gmail.com already exist","timestamp":"2025-10-01T08:58:37.894Z"}
+{"error":{},"level":"error","message":"500 - email is not defined - /api/users/ - POST - ::1","timestamp":"2025-10-01T08:58:43.847Z"}
+{"file":"UserController.js","level":"info","message":"Creating new user","timestamp":"2025-10-01T08:59:00.160Z"}
+{"file":"UserServiceImpl.js","level":"info","message":"Creating new user","timestamp":"2025-10-01T08:59:05.726Z"}
+{"level":"info","message":"[SequelizeUserRepository.js] Creating new user: [object Object]","timestamp":"2025-10-01T08:59:05.814Z"}
+{"file":"UserServiceImpl.js","level":"info","message":"User created successfully with ID: 6","timestamp":"2025-10-01T08:59:05.820Z"}
+{"file":"UserController.js","level":"info","message":"User created successfully with ID: 6","timestamp":"2025-10-01T08:59:11.620Z"}
+{"file":"UserController.js","level":"info","message":"Creating new user","timestamp":"2025-10-01T08:59:15.874Z"}
+{"file":"UserServiceImpl.js","level":"info","message":"Creating new user","timestamp":"2025-10-01T09:00:25.185Z"}
+{"file":"UserServiceImpl.js","level":"error","message":"User with email clerk@gmail.com already exist","timestamp":"2025-10-01T09:00:25.277Z"}
+{"error":{},"level":"error","message":"500 - email is not defined - /api/users/ - POST - ::1","timestamp":"2025-10-01T09:00:30.043Z"}
+{"file":"UserController.js","level":"info","message":"Creating new user","timestamp":"2025-10-01T09:00:51.512Z"}
+{"file":"UserServiceImpl.js","level":"info","message":"Creating new user","timestamp":"2025-10-01T09:01:06.623Z"}
+{"file":"UserServiceImpl.js","level":"error","message":"User with email clerk@gmail.com already exist","timestamp":"2025-10-01T09:01:06.710Z"}
+{"error":{},"level":"error","message":"500 - email is not defined - /api/users/ - POST - ::1","timestamp":"2025-10-01T09:01:41.620Z"}
+{"file":"AuthController.js","level":"info","message":"Login attempt for user: hatif120@gmail.com","timestamp":"2025-10-01T09:41:47.728Z"}
+{"file":"AuthServiceImpl.js","level":"info","message":"Fetching user with email: hatif120@gmail.com","timestamp":"2025-10-01T09:41:47.731Z"}
+{"file":"AuthServiceImpl.js","level":"info","message":"User fetched successfully with Email: hatif120@gmail.com","timestamp":"2025-10-01T09:41:47.743Z"}
+{"file":"AuthController.js","level":"info","message":"Token created successfully for user: hatif120@gmail.com","timestamp":"2025-10-01T09:41:47.816Z"}
+{"file":"AuthController.js","level":"info","message":"Referesh token for user: eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6MiwiZW1haWwiOiJoYXRpZjEyMEBnbWFpbC5jb20iLCJyb2xlIjoiTElCUkFSSUFOIiwibGFuZ3VhZ2UiOiJFTkdMSVNIIiwiaWF0IjoxNzU5MzExNzA3LCJleHAiOjE3NTkzMTUzMDd9.aCNq2ozEuAnz398-_fiGmo1z7N9ss1x3St2XqkYWOtc","timestamp":"2025-10-01T09:41:51.181Z"}
+{"file":"AuthServiceImpl.js","level":"info","message":"token for user: eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6MiwiZW1haWwiOiJoYXRpZjEyMEBnbWFpbC5jb20iLCJyb2xlIjoiTElCUkFSSUFOIiwibGFuZ3VhZ2UiOiJFTkdMSVNIIiwiaWF0IjoxNzU5MzExNzA3LCJleHAiOjE3NTkzMTUzMDd9.aCNq2ozEuAnz398-_fiGmo1z7N9ss1x3St2XqkYWOtc","timestamp":"2025-10-01T09:41:51.183Z"}
+{"file":"AuthController.js","level":"info","message":"Token created successfully for user: eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6MiwiZW1haWwiOiJoYXRpZjEyMEBnbWFpbC5jb20iLCJyb2xlIjoiTElCUkFSSUFOIiwibGFuZ3VhZ2UiOiJFTkdMSVNIIiwiaWF0IjoxNzU5MzExNzA3LCJleHAiOjE3NTkzMTUzMDd9.aCNq2ozEuAnz398-_fiGmo1z7N9ss1x3St2XqkYWOtc","timestamp":"2025-10-01T09:41:51.185Z"}
+{"level":"error","message":"401 - Invalid token - /api/users/ - GET - ::1 - jwt expired","timestamp":"2025-10-01T12:22:25.302Z"}
+{"file":"AuthController.js","level":"info","message":"Login attempt for user: admin@example.com","timestamp":"2025-10-01T12:22:29.209Z"}
+{"file":"AuthServiceImpl.js","level":"info","message":"Fetching user with email: admin@example.com","timestamp":"2025-10-01T12:22:29.211Z"}
+{"file":"AuthServiceImpl.js","level":"info","message":"User fetched successfully with Email: admin@example.com","timestamp":"2025-10-01T12:22:29.254Z"}
+{"file":"AuthController.js","level":"info","message":"Token created successfully for user: admin@example.com","timestamp":"2025-10-01T12:22:29.331Z"}
+{"file":"UserController.js","level":"info","message":"Fetching all users","timestamp":"2025-10-01T12:22:31.929Z"}
+{"file":"UserServiceImpl.js","level":"info","message":"Fetching all users","timestamp":"2025-10-01T12:22:31.930Z"}
+{"file":"UserServiceImpl.js","level":"info","message":"Fetched 6 users successfully","timestamp":"2025-10-01T12:22:31.937Z"}
+{"file":"UserController.js","level":"info","message":"Fetched 6 users successfully","timestamp":"2025-10-01T12:22:31.937Z"}
+{"file":"AuthController.js","level":"info","message":"Login attempt for user: admin@example.com","timestamp":"2025-10-01T13:04:50.155Z"}
+{"file":"AuthServiceImpl.js","level":"info","message":"Fetching user with email: admin@example.com","timestamp":"2025-10-01T13:04:51.682Z"}
+{"file":"AuthServiceImpl.js","level":"info","message":"User fetched successfully with Email: admin@example.com","timestamp":"2025-10-01T13:04:51.738Z"}
+{"file":"AuthController.js","level":"info","message":"Token created successfully for user: admin@example.com","timestamp":"2025-10-01T13:04:53.671Z"}
+{"file":"AuthController.js","level":"info","message":"Login attempt for user: admin@example.com","timestamp":"2025-10-02T05:15:31.491Z"}
+{"file":"AuthServiceImpl.js","level":"info","message":"Fetching user with email: admin@example.com","timestamp":"2025-10-02T05:15:31.493Z"}
+{"file":"AuthServiceImpl.js","level":"info","message":"User fetched successfully with Email: admin@example.com","timestamp":"2025-10-02T05:15:31.504Z"}
+{"file":"AuthController.js","level":"info","message":"Token created successfully for user: admin@example.com","timestamp":"2025-10-02T05:15:31.575Z"}
