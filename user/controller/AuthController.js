@@ -42,6 +42,8 @@ export default class AuthController {
             message: 'Token created successfully'
         });
 
+        
+
     };
 
     refresh = async (req, res, next) => {
