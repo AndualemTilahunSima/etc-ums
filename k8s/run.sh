@@ -1,17 +1,7 @@
 #!/bin/bash
 
 echo "Building Docker image..."
-docker build -t etc-ums:latest .
-
-echo "Loading image into Kubernetes (for local clusters)..."
-# For local Kubernetes clusters like minikube, kind, or k3s
-if command -v minikube &> /dev/null; then
-    echo "Loading image into minikube..."
-    minikube image load etc-ums:latest
-elif command -v kind &> /dev/null; then
-    echo "Loading image into kind..."
-    kind load docker-image etc-ums:latest
-fi
+docker build -t etc-ums:latest ../.
 
 echo "Applying Kubernetes manifests..."
 kubectl apply -f namespace.yml
