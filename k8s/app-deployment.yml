@@ -1,0 +1,57 @@
+apiVersion: apps/v1
+kind: Deployment
+metadata:
+  name: node-app
+  namespace: ums-system
+spec:
+  replicas: 1
+  selector:
+    matchLabels:
+      app: node-app
+  template:
+    metadata:
+      labels:
+        app: node-app
+    spec:
+      containers:
+        - name: node-app
+          image: etc-ums-app:latest  # or build locally and push
+          ports:
+            - containerPort: 5000
+          envFrom:
+            - configMapRef:
+                name: app-config
+          readinessProbe:
+            httpGet:
+              path: /health
+              port: 5000
+            initialDelaySeconds: 20
+            periodSeconds: 10
+          livenessProbe:
+            httpGet:
+              path: /health
+              port: 5000
+            initialDelaySeconds: 40
+            periodSeconds: 10
+          command: ["/bin/sh", "-c"]
+          args:
+            - |
+              echo 'Waiting for database to be ready...' &&
+              until nc -z mysql 3306; do sleep 2; done &&
+              echo 'Database is ready!' &&
+              npx sequelize-cli db:migrate &&
+              npx sequelize-cli db:seed:all &&
+              npm start
+---
+apiVersion: v1
+kind: Service
+metadata:
+  name: node-app
+  namespace: ums-system
+spec:
+  type: LoadBalancer
+  ports:
+    - port: 5000
+      targetPort: 5000
+  selector:
+    app: node-app
