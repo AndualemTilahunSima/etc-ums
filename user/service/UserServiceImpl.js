@@ -1,8 +1,8 @@
 import path from 'path';
 import bcrypt from "bcryptjs";
 import { randomUUID } from 'crypto';
-import UserNotFoundError from "../Error/UserNotFoundError.js";
-import UserConflictError from "../Error/UserConflictError.js";
+import UserNotFoundError from "../error/UserNotFoundError.js";
+import UserConflictError from "../error/UserConflictError.js";
 import UserRequest from "../dto/UserRequest.js";
 import UserResponse from "../dto/UserResponse.js"
 import UserRepository from "../repository/UserRepository.js";

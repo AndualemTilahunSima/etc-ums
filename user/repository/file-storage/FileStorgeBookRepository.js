@@ -1,7 +1,7 @@
 import { writeFile, readFile } from "fs/promises";
 import currentConfig from "./Config.js";
 import BookRepository from "../BookRepository.js";
-import BookNotFoundError from "../../Error/BookNotFoundError.js";
+import BookNotFoundError from "../../error/BookNotFoundError.js";
 import Book from "../../entity/Book.js";
 import path from "path";
 

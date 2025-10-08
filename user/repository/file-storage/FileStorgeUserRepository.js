@@ -1,7 +1,7 @@
 import { writeFile, readFile } from "fs/promises";
 import currentConfig from "./Config.js";
 import UserRepository from "../UserRepository.js";
-import UserNotFoundError from "../../Error/UserNotFoundError.js";
+import UserNotFoundError from "../../error/UserNotFoundError.js";
 import User from "../../entity/User.js";
 import path from "path";
 import { UserStatus } from "../../entity/UserStatus.js";

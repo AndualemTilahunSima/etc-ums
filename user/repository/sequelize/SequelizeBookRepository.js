@@ -1,7 +1,7 @@
 import Book from "../../entity/Book.js";
 import BookModel from "./db/models/Book.js";
 import BookRepository from "../BookRepository.js";
-import BookNotFoundError from "../../Error/BookNotFoundError.js";
+import BookNotFoundError from "../../error/BookNotFoundError.js";
 import path from "path";
 
 export class SequelizeBookRepository extends BookRepository {
