@@ -42,12 +42,14 @@ export default class AuthController {
             message: 'Token created successfully'
         });
 
+        
+
     };
 
     refresh = async (req, res, next) => {
 
         // console.log(`[${CURRENT_FILE}] Referesh token for user: ${req.body.refreshToken}`);
-        logger.info(`Referesh token for user: ${req.body.refreshToken}`, { file: CURRENT_FILE });
+        logger.er(`Referesh token for user: ${req.body.refreshToken}`, { file: CURRENT_FILE });
 
         const token = await this.#authService.refresh(req.body.refreshToken);
 

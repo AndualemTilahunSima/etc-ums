@@ -2,10 +2,12 @@ import express from 'express';
 import bodyParser from 'body-parser'
 import { errorHandler } from './user/error/ErrorHandler.js';
 import { registerRoutes } from "./routes.js"
+import dotenv from 'dotenv';
+
+dotenv.config();
 
 const app = express();
-const PORT = 5000
-
+const PORT = process.env.PORT || 3000;
 app.use(bodyParser.json());
 
 registerRoutes(app);

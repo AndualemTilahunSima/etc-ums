@@ -1,5 +1,4 @@
 import { Router } from 'express';
-import { FileStorageUserRepository } from '../repository/file-storage/FileStorgeUserRepository.js';
 import { SequelizeUserRepository } from '../repository/sequelize/SequelizeUserRepository.js';
 import { SequelizeBookRepository } from '../repository/sequelize/SequelizeBookRepository.js';
 import UserController from '../controller/UserController.js';

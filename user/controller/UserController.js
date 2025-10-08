@@ -76,6 +76,8 @@ export default class UserController {
             data: user.toJSON(),
             message: i18n.__("USER.RETRIEVED_BY_ID", { id })
         });
+
+        
     };
 
     /**

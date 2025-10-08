@@ -3,7 +3,7 @@ import UserModel from "./db/models/User.js";
 import BookModel from "./db/models/Book.js";
 import { Borrow } from "./db/models/Borrow.js";
 import UserRepository from "../UserRepository.js";
-import UserNotFoundError from "../../Error/UserNotFoundError.js";
+import UserNotFoundError from "../../error/UserNotFoundError.js";
 import path from "path";
 import sequelize from './config/db.js';
 import logger from '../../log/logger.js';

@@ -170,5 +170,7 @@ export default class BookController {
             message: i18n.__("BOOK.DELETED", { id }),
         });
 
+        
+
     };
 }
