@@ -19,6 +19,3 @@ jobs:
 
       - name: Build Docker Compose
         run: docker compose -f docker.production.yml up -d --build
-
-      - name: Stop containers
-        run: docker compose -f docker.production.yml down
