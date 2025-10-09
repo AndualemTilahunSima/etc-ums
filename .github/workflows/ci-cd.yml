@@ -17,5 +17,9 @@ jobs:
       - name: Set up Docker Buildx
         uses: docker/setup-buildx-action@v3
 
-      - name: Build Docker Compose
+      - name: Make build script executable
+        run: chmod +x ./build-docker.sh
+
+      - name: Run build script
         run: ./build-docker.sh
+
