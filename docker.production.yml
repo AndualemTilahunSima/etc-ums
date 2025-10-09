@@ -21,7 +21,7 @@ services:
       start_period: 40s
 
   app-prod:
-    build: .
+    image: etc-ums:latest
     container_name: node-app-prod
     restart: on-failure
     ports:
